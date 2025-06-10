@@ -130,3 +130,14 @@ body::-webkit-scrollbar,
 html::-webkit-scrollbar {
   display: none; /* Chrome, Safari */
 }
+
+.container,
+.table-container {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.container::-webkit-scrollbar,
+.table-container::-webkit-scrollbar {
+  display: none;
+}
